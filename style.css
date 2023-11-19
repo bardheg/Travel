@@ -1,59 +1,83 @@
-
-body{
-    font-family: 'Popins' , sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
-header{
-    width:80%;
-    height: 95vh;
-    border: 1px solid #000;
-    margin:auto;
-}
-header nav{
-    width:95%;
-    height:7%;
-    border:1px solid #000;
-    margin: auto
-    display flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header nav ul{
-    list-style: none;
+.Header {
+    /* background-color: rgb(193, 183, 183); */
     display: flex;
+    justify-content:space-between;
 }
-header nav ul li{
-    padding: 3px 15px;
+.Header h1{    
+    padding-left: 8px; 
+    padding-top: 8px;
+    padding-bottom: 6px;
+    border-color: red;
+    font-size: 42px;
+    /* border: solid; */
 }
-header nav ul li:nth-last-child(1){
-    background:#000;
-    border-radius: 20px;   
-    padding: 5px 20px;
-    }
-    header nav ul li:nth-last-child(1){
-        color: #fff;
-    }
-header nav ul li{
-    text-decoration: none;
-    color:#121213
-    font-size: 13px;
-    font-weight: 500;
-    transition: .3s linear;
+.Header li{
+    display: inline-block;
+    list-style-type: none;
+    font-size: 24px;
+    padding-right: 12px;   
+            
 }
-header nav ul li a:hover{
-    color: red;
+
+.Header_Butoni{
+    display: flex;
+    align-items: center;    
 }
-header .content{
-    position: relative;
-    width: 100%;
-    height: 80%;
-    border: 1px solid #000;
+#Butoni_1 {
+    margin-right: 14px;
+    box-shadow: 0px 0px 5px;
+    font-size: 28px;
+    padding-top: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    color: rgb(29 161 242);
+    background-color:white;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(29 161 242);
+    cursor: pointer;
 }
-header .content:before{
-    content: '';
-    position: relative;
-    width:100%;
-    height:80%;
-    border:1px solid #000;
-    background: url(wapp.png);
-    border-radius:  10px;
+#Butoni_1:hover {
+    background-color: rgb(29 161 242);
+    border-color: rgb(0, 106, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px;
+    transition: 0.25s;
+    
+}
+#Butoni_1:active{
+    opacity: 0.60;
+}
+#Butoni_2 {
+    margin-right: 14px;
+    box-shadow: 0px 0px 5px;
+    font-size: 28px;
+    padding-top: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    border-radius: 50px;
+    color: rgb(29 161 242);
+    background-color:white;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(29 161 242);
+    cursor: pointer;
+}
+#Butoni_2:hover {
+    background-color: rgb(29 161 242);
+    border-color: rgb(0, 106, 255);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px;
+    transition: 0.25s;
+    
+}
+#Butoni_2:active{
+    opacity: 0.60;
 }
