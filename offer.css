@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blanchedalmond;
+    background-color: rgb(146, 231, 238);
     background-position: center;
 }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
 
 .hero{
     height: 100vh;
@@ -19,10 +23,18 @@
 }
 
 .pics{
+    margin-top: 60px;
     display: grid;
     grid-gap: 1px;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 5%;
+}
+
+.pics p{
+    display: flex;
+    justify-content: center;
+    padding-right: 14%;
+    font-family: 'Roboto'
 }
 
 .footer{
@@ -31,15 +43,30 @@
 }
 
 .socialicons{
-    padding-top: 300px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
 }
-
 .socialicons i{
     padding: 100px;
     background-color: rgba(135, 141, 135, 0.562);
     margin: 30px;
     border-radius: 50%;
+}
+
+.footernav{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav span{
+    padding: 60px;
+}
+
+#title{
+    height: 10vh;
+    background-color: aliceblue;
+    font-size: 50px;
+    text-align: center;
 }
