@@ -25,4 +25,21 @@
     margin-left: 5%;
 }
 
+.footer{
+    background-color: black;
+    bottom: 0;
+}
 
+.socialicons{
+    padding-top: 300px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.socialicons i{
+    padding: 100px;
+    background-color: rgba(135, 141, 135, 0.562);
+    margin: 30px;
+    border-radius: 50%;
+}
