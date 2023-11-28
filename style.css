@@ -52,6 +52,8 @@ background-size: cover;
     border-color: rgb(234, 135, 90);
     cursor: pointer;
 }
+
+
 #Butoni_1:hover {
     background-color: rgb(229, 144, 64);
     border-color: rgb(214, 143, 50);
@@ -196,5 +198,3 @@ background-size: cover;
     font-size: 30px;
     padding-top: 30px;
 }
-
-
