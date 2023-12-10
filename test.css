@@ -1,27 +1,27 @@
 body{
     margin: 0px;
-    
 }
 .header{
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 8px;
-    margin-bottom:8px;
+    margin-bottom:2px;
 }
 .navigation {
     display: flex;
-    
     padding: 10px;
     margin-top: 0px;
     margin-left: 36.5%;
     padding-top: 0px;
+    text-decoration: none;
 }
 .navigation p{
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 35px;
-    font-size: 21px;
-    
+    font-size: 21px;  
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
 }
 .header h1{
     padding-left: 550px;
@@ -30,7 +30,6 @@ body{
     margin-top: 3px;
     margin-bottom: 0px;
     padding-right:370px;
-    
 }
 
 .header button{  
@@ -52,7 +51,6 @@ body{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .header button:hover {
-   
     border-color: rgb(0, 0, 198);
 }
 .header button:active{
@@ -64,21 +62,22 @@ body{
 
 .trupi{
     display: flex;
-    
 }
 
 /* -------- */
 .intro {
-    
-    box-shadow: 5px 0px 8px;
     height: 700px;
     width: 970px;  
-    
-    border-color: #01d486;
+    background-color: #00355f;
 }
 .intro p{
     text-align: center;
     font-size: 26px;
+}
+.intro img{
+    margin-top: 100px;
+    margin-bottom: auto;
+    width: 971px;    
 }
 #p1 {
     margin-top: 260px;
@@ -95,12 +94,12 @@ body{
 
 .register{
     background-color: #3f704d;
-   
-    
     width: 544px;
     height: 700px;
     margin-top: 0px;
     border-width: 2px;
+    border-left:solid;
+    border-color: rgb(0, 90, 0);
     
 }
 
@@ -144,11 +143,23 @@ body{
 /* --------- */
 
 .footer{
-    
-     
-    border: solid;
-    height: 80px;
+    height: 100px;
 }
-.footer img{
-    width: 50px;
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    bottom: 0;
+    width: 1517px;
+}
+.social-media {
+    margin-top: 10px;
+}
+.social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
 }
